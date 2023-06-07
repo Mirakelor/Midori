@@ -10,8 +10,24 @@ export const site: SiteConfig = {
   author: {
     avatar: '/assets/Avatar.jpg',
     name: 'Mirakelor',
-    status: '🌸',
-    bio: '拨动时光的指针~'
+    status: '🍥',
+    bio: '拨动时光的指针~',
+    metadata: [
+      {
+        // text: 'kwaa',
+        icon: 'i-simple-icons-github',
+        link: 'https://github.com/Mirakelor'
+      },
+      {
+        // text: '@kwaabot',
+        icon: 'i-simple-icons-dolphin',
+        link: 'https://fuckc.cf/@Mirakelor'
+      },
+      {
+        icon: 'i-simple-icons-music',
+        link: 'https://music.163.com/#/user/home?id=1442268174'
+      }
+    ]
   },
   themeColor: '#3D4451'
 }
