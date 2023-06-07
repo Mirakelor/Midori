@@ -15,16 +15,16 @@ export const site: SiteConfig = {
     metadata: [
       {
         // text: 'kwaa',
-        icon: 'i-simple-icons-github',
+        icon: 'i-heroicons-solid-github',
         link: 'https://github.com/Mirakelor'
       },
       {
         // text: '@kwaabot',
-        icon: 'i-simple-icons-dolphin',
+        icon: 'i-heroicons-solid-dolphin',
         link: 'https://fuckc.cf/@Mirakelor'
       },
       {
-        icon: 'i-simple-icons-music',
+        icon: 'i-heroicons-solid-music',
         link: 'https://music.163.com/#/user/home?id=1442268174'
       }
     ]
