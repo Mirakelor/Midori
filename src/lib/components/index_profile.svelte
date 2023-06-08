@@ -33,7 +33,11 @@
               class="btn btn-sm btn-ghost normal-case gap-2 u-url"
               target="_blank">
               {#if icon}
-                <span class="{icon} !w-5 !h-5">{icon}</span>
+                {#if source}
+                  <span class="{icon} !w-5 !h-5" style='--un-icon: url({source})'>{icon}</span>
+                {:else}
+                  <span class="{icon} !w-5 !h-5">{icon}</span>
+                {/if}
               {/if}
               {#if text}
                 {text}
