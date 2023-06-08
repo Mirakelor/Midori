@@ -17,7 +17,7 @@
     },
     {
       "source": "/.well-known/webfinger",
-      "destination": "https://fed.brid.gy/.well-known/webfinger",
+      "destination": "ttps://fed.brid.gy/.well-known/webfinger?resource=acct:monocle.js.org@monocle.js.org",
       "statusCode": 302
     }
   ]
