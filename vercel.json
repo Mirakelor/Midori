@@ -16,7 +16,7 @@
       "statusCode": 302
     },
     {
-      "source": "/.well-known/webfinger",
+      "source": "/.well-known/webfinger?resource=acct:monocle.js.org@monocle.js.org",
       "destination": "https://fed.brid.gy/.well-known/webfinger?resource=acct:monocle.js.org@monocle.js.org",
       "statusCode": 302
     }
