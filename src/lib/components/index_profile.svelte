@@ -24,7 +24,7 @@
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
     {#if site.author.metadata}
       <div class="flex gap-1 flex-wrap justify-center">
-        {#each site.author.metadata as { text, icon, link, rel }}
+        {#each site.author.metadata as { text, icon, link, source, rel }}
           {#if link}
             <a
               href={link}
