@@ -24,7 +24,7 @@
     <p class="opacity-75 p-note">{@html site.author.bio}</p>
     {#if site.author.metadata}
       <div class="flex gap-1 flex-wrap justify-center">
-        {#each site.author.metadata as { text, icon, link, source, rel }}
+        {#each site.author.metadata as { text, icon, link, type, source, rel }}
           {#if link}
             <a
               href={link}
@@ -33,8 +33,8 @@
               class="btn btn-sm btn-ghost normal-case gap-2 u-url"
               target="_blank">
               {#if icon}
-                {#if source}
-                  <span class="{icon} !w-5 !h-5" style='--un-icon: url({source})'>{icon}</span>
+                {#if type}
+                  {source}
                 {:else}
                   <span class="{icon} !w-5 !h-5">{icon}</span>
                 {/if}
