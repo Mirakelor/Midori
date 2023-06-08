@@ -34,7 +34,7 @@
               target="_blank">
               {#if icon}
                 {#if type}
-                  <svg {source}</svg>
+                  <svg width="1.5em" height="1.5em">{source}</svg>
                 {:else}
                   <span class="{icon} !w-5 !h-5">{icon}</span>
                 {/if}
