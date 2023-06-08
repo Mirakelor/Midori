@@ -11,6 +11,8 @@
 
 <Head {post} />
 
+<a class="hidden" href="https://fed.brid.gy/">Bridgy Fed</a>
+
 <div class="flex flex-col flex-nowrap justify-center xl:flex-row xl:flex-wrap">
   <div
     in:fly={{ x: 25, duration: 300, delay: 500 }}
