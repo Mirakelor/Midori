@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/.well-known/*",
-      "destination": "https://fed.brid.gy/.well-known/*",
+      "source": "/.well-known/path*",
+      "destination": "https://fed.brid.gy/.well-known/path*",
       "statusCode": 302
     }
   ]
