@@ -1,8 +1,23 @@
 {
   "redirects": [
     {
-      "source": "/.well-known/path*",
-      "destination": "https://fed.brid.gy/.well-known/path*",
+      "source": "/.well-known/host-meta",
+      "destination": "https://fed.brid.gy/.well-known/host-meta",
+      "statusCode": 302
+    },
+    {
+      "source": "/.well-known/host-meta.xrd",
+      "destination": "https://fed.brid.gy/.well-known/host-meta.xrd",
+      "statusCode": 302
+    },
+    {
+      "source": "/.well-known/host-meta.jrd",
+      "destination": "https://fed.brid.gy/.well-known/host-meta.jrd",
+      "statusCode": 302
+    },
+    {
+      "source": "/.well-known/webfinger",
+      "destination": "https://fed.brid.gy/.well-known/webfinger",
       "statusCode": 302
     }
   ]
