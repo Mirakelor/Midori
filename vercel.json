@@ -1,23 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/.well-known/host-meta",
-      "destination": "https://fed.brid.gy/.well-known/host-meta",
-      "statusCode": 302
-    },
-    {
-      "source": "/.well-known/host-meta.xrd",
-      "destination": "https://fed.brid.gy/.well-known/host-meta.xrd",
-      "statusCode": 302
-    },
-    {
-      "source": "/.well-known/host-meta.jrd",
-      "destination": "https://fed.brid.gy/.well-known/host-meta.jrd",
-      "statusCode": 302
-    },
-    {
-      "source": "/.well-known/webfinger?resource=acct:monocle.js.org@monocle.js.org",
-      "destination": "https://fed.brid.gy/.well-known/webfinger?resource=acct:monocle.js.org@monocle.js.org",
+      "source": "/.well-known",
+      "destination": "https://fed.brid.gy/.well-known",
       "statusCode": 302
     }
   ]
