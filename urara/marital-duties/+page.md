@@ -14,6 +14,7 @@ tags:
   - '枫散'
   - 'CP'
 title: 'Marital Duties'
+type: 'article'
 ---
 
 > Written By underfallingflowerpetals.  

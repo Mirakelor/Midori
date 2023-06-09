@@ -7,6 +7,7 @@ tags:
   - 'Poscast'
   - '播客'
 title: 'H2O'
+type: 'article'
 ---
 
 > 等待细雨下在空寂的小径上，

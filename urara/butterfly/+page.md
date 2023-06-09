@@ -8,6 +8,7 @@ title: '残蝶'
 updated: '2022-08-19'
 created: '2022-08-19'
 published: '2022-08-19'
+type: 'article'
 ---
 
 无意间在沥青间发现了一只残蝶。

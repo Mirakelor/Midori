@@ -20,6 +20,7 @@ tags:
   - '耽美'
   - 'CP'
 title: 'Justice'
+type: 'article'
 ---
 
 > Written By DailyDocosahexaenoic.  

@@ -9,6 +9,7 @@ tags:
   - 'Translate'
   - 'SPARE'
 title: 'SPARE -- PART 0'
+type: 'article'
 ---
 
 > The past is never dead. It’s not even past. — William Faulkner

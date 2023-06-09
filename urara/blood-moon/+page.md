@@ -6,6 +6,7 @@ published: '2022-6-28'
 tag:
   - '惊悚'
   - '克苏鲁'
+type: 'article'
 ---
 
 他醒了，

@@ -8,6 +8,7 @@ tags:
   - '军训散记'
   - 'Loneliness'
 title: 'Loneliness'
+type: 'article'
 ---
 
 > 前些日子是新高一军训，第一次离家独自生活这么久，有些怅然。

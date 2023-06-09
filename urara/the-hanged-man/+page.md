@@ -18,6 +18,7 @@ tags:
   - '耽美'
   - 'CP'
 title: 'The Hanged Man'
+type: 'article'
 ---
 
 > Written By DailyDocosahexaenoic.  

@@ -5,6 +5,7 @@ updated: '2023-2-19'
 published: '2023-2-19'
 tags:
   - 'Lost'
+type: 'article'
 ---
 
 > 不过是一次可悲的失败罢了。

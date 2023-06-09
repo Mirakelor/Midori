@@ -7,6 +7,7 @@ title: Chapter 0
 updated: '2022-07-31'
 created: '2022-07-31'
 published: '2022-07-31'
+type: 'article'
 ---
 
 当远方城堡空灵的钟声传来时，小丑正蹦蹦跳跳地往城堡里赶。

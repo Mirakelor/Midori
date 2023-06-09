@@ -12,6 +12,7 @@ tags:
   - 'Novel'
   - 'The Ink Black Heart'
 title: 'The Ink Black Heart -- PART 0'
+type: 'article'
 ---
 
 > 你的目光为何总在我身上驻足，  

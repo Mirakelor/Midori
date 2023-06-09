@@ -40,7 +40,7 @@
   class:before:!rounded-none={preview && post.image}
   class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10">
   {#if !preview && postConfig.bridgy}
-    <div id="bridgy" class="hidden">
+    <div id="bridgy">
       {#each post.flags?.some( flag => flag.startsWith('bridgy') ) ? post.flags.flatMap( flag => (flag.startsWith('bridgy') ? flag.slice(7) : []) ) : [...(postConfig.bridgy.post ?? []), ...(postConfig.bridgy[post.type] ?? [])] as target}
         {#if target === 'fed'}
           <a href="https://fed.brid.gy/">fed</a>

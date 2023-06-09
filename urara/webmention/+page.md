@@ -4,6 +4,7 @@ tags:
   - 'Shoka'
   - 'Webmention'
 title: 'Shoka:+Webmention'
+type: 'article'
 ---
 
 > Thanks❤️🌹😋 For  

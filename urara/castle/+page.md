@@ -6,6 +6,7 @@ published: '2022-12-23'
 tags:
   - '散文'
   - 'AI'
+type: 'article'
 ---
 
 > By HeyFriday

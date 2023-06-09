@@ -6,6 +6,7 @@ publish: 2022-12-23
 tags:
   - '童话'
   - 'Amber'
+type: 'article'
 ---
 
 > 童真一定是世界上最美好的东西了。

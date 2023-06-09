@@ -6,6 +6,7 @@ published: '2023-3-5'
 tags:
   - '童话'
   - 'Amber'
+type: 'article'
 ---
 
 > 天平两端

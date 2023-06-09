@@ -6,6 +6,7 @@ published: '2022-6-23'
 tags:
   - '故事'
   - 'AI'
+type: 'article'
 ---
 
 # 祖父与海棠
