@@ -39,17 +39,6 @@
   class:image-full={preview && post.type === 'article' && post.image}
   class:before:!rounded-none={preview && post.image}
   class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10">
-  {#if !preview && postConfig.bridgy}
-    <div id="bridgy">
-      {#each post.flags?.some( flag => flag.startsWith('bridgy') ) ? post.flags.flatMap( flag => (flag.startsWith('bridgy') ? flag.slice(7) : []) ) : [...(postConfig.bridgy.post ?? []), ...(postConfig.bridgy[post.type] ?? [])] as target}
-        {#if target === 'fed'}
-          <a href="https://fed.brid.gy/">fed</a>
-        {:else}
-          <a href="https://brid.gy/publish/{target}">{target}</a>
-        {/if}
-      {/each}
-    </div>
-  {/if}
   {#if post.in_reply_to}
     <Reply in_reply_to={post.in_reply_to} class="mt-4 mx-4" />
   {/if}
@@ -102,6 +91,17 @@
       {/if}
     </div>
     <main itemprop="articleBody" class:mt-4={post.type !== 'article'} class="urara-prose prose e-content">
+      {#if !preview && postConfig.bridgy}
+        <div id="bridgy" class="hidden">
+          {#each post.flags?.some( flag => flag.startsWith('bridgy') ) ? post.flags.flatMap( flag => (flag.startsWith('bridgy') ? flag.slice(7) : []) ) : [...(postConfig.bridgy.post ?? []), ...(postConfig.bridgy[post.type] ?? [])] as target}
+            {#if target === 'fed'}
+              <a href="https://fed.brid.gy/">fed</a>
+            {:else}
+              <a href="https://brid.gy/publish/{target}">{target}</a>
+            {/if}
+          {/each}
+        </div>
+  {/if}
       {#if !preview}
         <slot />
       {:else if post.html}
