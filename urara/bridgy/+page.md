@@ -6,7 +6,7 @@ title: 'Bridgy'
 updated: '2023-06-9'
 created: '2023-06-9'
 published: '2023-06-9'
-type: 'article'
+type: 'note'
 ---
 
 鸡肋鸡肋，食之无味
