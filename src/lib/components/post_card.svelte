@@ -95,7 +95,7 @@
         <div id="bridgy" class="hidden">
           {#each post.flags?.some( flag => flag.startsWith('bridgy') ) ? post.flags.flatMap( flag => (flag.startsWith('bridgy') ? flag.slice(7) : []) ) : [...(postConfig.bridgy.post ?? []), ...(postConfig.bridgy[post.type] ?? [])] as target}
             {#if target === 'fed'}
-              <a href="https://fed.brid.gy/">fed</a>
+              <a href="https://fed.brid.gy/">🕊️🐧</a>
             {:else}
               <a href="https://brid.gy/publish/{target}">{target}</a>
             {/if}
