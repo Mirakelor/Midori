@@ -73,3 +73,4 @@
     {/each}
   </ul>
 </div>
+ <a class="u-url hidden" href="acct:Mirakelor@monocle.js.org"></a>

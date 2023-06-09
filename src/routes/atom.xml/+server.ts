@@ -31,8 +31,7 @@ const render = (posts = genPosts({ postHtml: true, postLimit: feed.limit, filter
         post.summary ? `\n    <summary type="html"><![CDATA[${post.summary.toString()}]]></summary>` : ''
       }
     <content type="html">
-      <a href="https://fed.brid.gy/">fed</a>
-      <![CDATA[${post.html}]]>
+      <![CDATA[<a href="https://fed.brid.gy/">fed</a>${post.html}]]>
     </content>${post.tags
       ?.map(tag => `\n    <category term="${tag}" scheme="${site.protocol + site.domain}/?tags=${encodeURI(tag)}" />`)
       .join('')}
