@@ -1,6 +1,9 @@
 import type { PostConfig } from '$lib/types/post'
 
 export const post: PostConfig = {
+  bridgy: {
+    post: ['fed']
+  },
   comment: {
     use: ['Webmention'],
     style: 'boxed', // 评论系统栏样式: none / bordered / lifted / boxed
