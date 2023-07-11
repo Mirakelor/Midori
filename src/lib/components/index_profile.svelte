@@ -6,6 +6,7 @@
   class="h-card flex flex-col gap-4 sticky top-24 card card-body p-4 items-right xl:border-2 xl:py-8 border-base-content/10 xl:ml-auto xl:mr-8 xl:max-w-xs">
   <a href={site.protocol + site.domain} class="hidden u-uid">{site.author.name}</a>
   <a class="hidden u-url" href="acct:Mirakelor@monocle.js.org"></a>
+  <img class="hidden u-featured" src="/header.png" />
   <figure class="relative mx-auto group">
     {#if site.author.avatar}
       <img
