@@ -28,3 +28,5 @@ type: 'article'
 2023/4/30: 通过修改主题文件添加 sleep 解决 Pjax 加载异常的问题，参考[望月阁](https://www.kaitaku.xyz/webbuild/shokatwikoo/)
 
 😔Shoka 年久失修，到底是老啦，原生的 Js 一大片一大片的，逻辑复杂还没注释，真是 😵
+
+终究离开了...

@@ -1,7 +1,7 @@
 ---
 title: '祖父与海棠'
 created: '2022-6-23'
-updated: '2022-6-23'
+updated: '2023-7-19'
 published: '2022-6-23'
 tags:
   - '故事'
@@ -30,3 +30,5 @@ type: 'article'
 不知所云。
 
 李白，杜甫，屈原，李建成，都是海棠的祖父。
+
+> 然而现在Github Copilot早已收费，随着ChatGPT的推出，AI写诗也不在是什么新鲜事，往事如烟，不禁令人叹息。

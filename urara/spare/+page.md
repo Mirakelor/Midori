@@ -14,7 +14,7 @@ type: 'article'
 
 > The past is never dead. It’s not even past. — William Faulkner
 
-我们约定在葬礼结束几个小时之后见一面。在弗罗格莫尔花园里，古老的哥特式建筑旁，我先到了那里。
+我们约定在葬礼结束几个小时之后见一面。在弗罗格莫尔花园里，古老的哥特式建筑旁，我第一个到了那里。
 
 我四处张望，没有一个人。
 

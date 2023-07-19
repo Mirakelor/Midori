@@ -17,3 +17,5 @@ type: 'article'
 
 > 把我折腾地服了
 > 勉强算是配置好了......
+
+好喜欢这种Fediverse的感觉啊，@Future🤩
