@@ -9,7 +9,7 @@ tags:
 type: 'article'
 ---
 
-> By [HeyFriday](www.heyfriday.cn)
+> By [HeyFriday](https://www.heyfriday.cn)
 
 古堡是历史的见证，是一座座巍峨耸立的雄伟建筑。它们看似年久失修，却是曾经风雨兼程、高高耸立在这片土地上的象征。
 
