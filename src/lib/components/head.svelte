@@ -8,6 +8,7 @@
 </script>
 
 <svelte:head>
+  <link rel="microsub" href="https://aperture.p3k.io/microsub/885">
   <meta name="author" content={site.author?.name} />
   {#if post}
     <link rel="canonical" href={site.protocol + site.domain + post.path} />
