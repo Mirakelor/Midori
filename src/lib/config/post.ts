@@ -12,7 +12,7 @@ export const post: PostConfig = {
       sortBy: 'created', // 排序方式: created / updated
       sortDir: 'down', // 排序顺序: up / down
       form: true, // 启用评论: true / false
-      commentParade: true // 启用匿名评论: true / false
+      commentParade: false // 启用匿名评论: true / false
     }
   }
 }
