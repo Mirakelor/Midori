@@ -21,7 +21,7 @@ export const site: SiteConfig = {
       {
         // text: '@kwaabot',
         icon: 'i-simple-icons-dolphin',
-        link: 'https://fuckc.cf/@Mirakelor',
+        link: 'https://submarin.online/@Mirakelor',
         dolphin: 'yes' ///潦草的~
       },
       {
