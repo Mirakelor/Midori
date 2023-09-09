@@ -32,10 +32,10 @@ It is strongly recommended that you use Bun🥟（~~找不到包子的Emoji用�
 
 It provides various Bili-Emojis👹(emojis created by Bilibili originally).
 
-    import { Hazarda } from 'akioi'
-
-    console.log(Hazarda())
-
+```
+ import { Hazarda } from 'akioi'
+ console.log(Hazarda())
+```
 Function Hazarda will return a cute emoji😘🐧🤔🤩🫡
 
 ### Mastodon
