@@ -9,13 +9,11 @@ tags:
   - 'Mastodon'
   - 'OIer'
 title: 'Akioi Documantation'
-layout: 'article'
 ---
 
 # Akioi.js
-![npm version](https://img.shields.io/badge/npm-v1.0.4-brightgreen.svg) ![license](https://img.shields.io/badge/license-MIT-orange.svg)  
 
-~~(°∀°)ﾉ A Cute😺🎀🎵 NPM Package For OIer.
+> ~~(°∀°)ﾉ A Cute😺🎀🎵 NPM Package For OIer.
 
 ## Install
 
