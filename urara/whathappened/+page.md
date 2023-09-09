@@ -3,7 +3,7 @@ tags:
   - 'What Happened'
   - 'Mirakelor'
 title: 'What Happened'
-summary: Come Here for Akioi Docs !
+created: 2023-9-8
 ---
 🌌☃
 > 这里是[Akioi.js](https://github.com/mirakelor/akioi)的文档
