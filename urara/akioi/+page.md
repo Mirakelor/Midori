@@ -10,7 +10,6 @@ tags:
   - 'OIer'
 title: 'Akioi Documantation'
 layout: 'article'
-description: Heading Here If You Are Looking For It.
 ---
 
 # Akioi.js
