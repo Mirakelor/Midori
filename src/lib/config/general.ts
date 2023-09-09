@@ -68,6 +68,10 @@ export const header: HeaderConfig = {
     {
       text: '友人帐',
       link: '/friends'
+    },
+    {
+      text: 'Blog☃',
+      link: 'https://fuckc.cf'
     }
   ]
 }
